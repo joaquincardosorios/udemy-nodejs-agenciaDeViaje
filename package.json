@@ -1,0 +1,26 @@
+{
+  "name": "agenciaviajes",
+  "version": "1.0.0",
+  "description": "Agenda de Viajes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "joaquincardosorios"
+  },
+  "type": "module",
+  "author": "Joaquin Rios",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.2.3",
+    "pug": "^3.0.2",
+    "sequelize": "^6.31.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
